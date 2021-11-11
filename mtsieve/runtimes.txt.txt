@@ -1,0 +1,22 @@
+./mtsieve -s100 -e200000000 -t1 : 0m1.875s
+./mtsieve -s100 -e200000000 -t2 : 0m1.434s
+./mtsieve -s100 -e200000000 -t3 : 0m1.265s
+./mtsieve -s100 -e200000000 -t4 : 0m1.214s
+./mtsieve -s100 -e200000000 -t5 : 0m1.193s
+./mtsieve -s100 -e200000000 -t6 : 0m1.172s
+./mtsieve -s100 -e200000000 -t7 : 0m1.143s
+./mtsieve -s100 -e200000000 -t8 : 0m1.096s
+./mtsieve -s100 -e200000000 -t9 : 0m1.064s
+./mtsieve -s100 -e200000000 -t10 : 0m1.059s
+./mtsieve -s100 -e200000000 -t11 : 0m1.075s
+./mtsieve -s100 -e200000000 -t12 : 0m1.052s
+
+What CPU Model Do You Have? AMD Ryzen 5 5600X 6-Core Processor
+
+The time scale is not linear. As number of threads increases, the time still gets better everytime, but the increase starts to plateau in magnitude as you reach 12 threads. For example, the change from 1 to 2 threads is roughly .4 seconds, but the jump from 11 to 12 threads is .02 seconds.
+
+
+
+
+
+
